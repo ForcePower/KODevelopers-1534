@@ -2,7 +2,7 @@
 #include "JvCryption.h"
 #include "version.h"
 
-#define g_private_key 0x7412580096385200
+#define g_private_key 0x1257091582190465 //1453 & 1534 crypto
 
 void CJvCryption::Init() { m_tkey = m_public_key ^ g_private_key; }
 
